@@ -19,7 +19,6 @@ class MRLanguagesBudgetCountries(MRJob):
     def reducer(self, language, country_budget_pairs):
         country_set = set()
         total_budget = 0
-
         for country, budget in country_budget_pairs:
             country_set.add(country)
             total_budget += budget
