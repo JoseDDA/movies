@@ -1,7 +1,3 @@
-Based on the information from your PDF, here’s a suggested `README.md` file for your GitHub project:
-
----
-
 # IMDb Movie Data Analysis
 
 ## Project Overview
